@@ -8,12 +8,117 @@
   box-sizing: border-box;
   font-family: sans-serif;
   font-weight: 400px;
+  list-style: none;
+  text-decoration: none;
 }
-h1,
+/* h1,
 h3 {
   font-family: Fira Sans;
   font-weight: 800;
   color: #212529;
+} */
+
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(254, 254, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.leftsidemenu {
+  display: flex;
+  margin-left: 70px;
+  /* margin-top: 20px; */
+  align-items: center;
+}
+.leftsidemenu .logo h1 a {
+  color: #495057;
+  font-size: 22px;
+  padding: 7.2px 11.2px;
+}
+.leftsidemenu ul {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+.leftsidemenu ul li a {
+  color: #5b6167;
+  padding: 7.2px 11.2px;
+  font-size: 17px;
+}
+
+.rightsidemenu {
+  margin-right: 90px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.rightsidemenu h4 a {
+  color: #000029;
+  font-size: 15px;
+}
+.rightsidemenu .btn_nav {
+  background-color: black;
+  border-radius: 5px;
+  border: none;
+  padding: 12px 25px;
+  margin-left: 18px;
+}
+.rightsidemenu .btn_nav a {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.mainsec1 {
+  /* margin: 0px 70px; */
+  width: 100%;
+  margin-bottom: 30px;
+}
+.mainsec1 h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.mainsec1 .flexclasses {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* width: ; */
+
+  height: max-content;
+}
+.mainsec1 .flexclasses .boxs {
+  width: 26%;
+
+  border: 1px solid black;
+  margin-right: 30px;
+  border-radius: 10px;
+  color: #495057;
+  font-weight: 400;
+  transition: all 0.1s ease;
+}
+
+.mainsec1 .flexclasses .boxs img {
+  width: 100%;
+  height: 190px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.mainsec1 .flexclasses .boxs h3 {
+  font-size: 23px;
+  margin: 12px 10px;
+}
+
+.mainsec1 .flexclasses .boxs p {
+  font-size: 15px;
+  padding-top: 12px;
+  padding-left: 10px;
+}
+.mainsec1 .flexclasses .boxs .ptwo {
+  padding: 10px 0px 14px 10px;
 }
 span {
   color: #1a73e8;
