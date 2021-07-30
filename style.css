@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* popins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 400px;
+}
+h1,
+h3 {
+  font-family: Fira Sans;
+  font-weight: 800;
+  color: #212529;
+}
+span {
+  color: #1a73e8;
+}
+.container h1 {
+  font-size: 42px;
+  text-align: center;
+  margin-left: 40px;
+  padding: 22.5px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  width: 95%;
+  height: 645px;
+  margin: 30px 0px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.flexcontainer {
+  display: flex;
+  /* margin: 0px 100px; */
+  margin-left: 60px;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* background-color: aqua; */
+}
+.box {
+  text-align: center;
+  width: 350px;
+  height: max-content;
+  /* margin: 0px 12px; */
+  /* display: flex; */
+  padding: 12px;
+  border-radius: 7px;
+  border: 1px solid #cacaca;
+  /* word-wrap: break-word; */
+}
+.box h3 {
+  font-family: google sans display;
+  font-size: 25.5px;
+  color: #212529;
+  margin-bottom: 15px;
+}
+.box img {
+  width: 67.5px;
+  height: 67.5px;
+}
+.box p {
+  font-size: 18.75px;
+  margin-bottom: 15px;
+  color: #495057;
+  line-height: 1.5;
+}
+.box1 {
+  margin-right: 30px;
+  padding-bottom: 10px;
+}
+.box2 {
+  margin-right: 30px;
+  padding-bottom: 10px;
+}
+.box3 {
+  padding-bottom: 10px;
+}
+.box4 {
+  margin-right: 30px;
+}
+.box5 {
+}
