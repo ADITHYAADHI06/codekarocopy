@@ -6,6 +6,7 @@
 
 /* mainsec fonts */
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -294,5 +295,6 @@ span {
   font-size: 12px;
   font-weight: 600px;
   margin-bottom: 30px;
+  font-family: "Inter", sans-serif;
   /* justify-self: self-end; */
 }
